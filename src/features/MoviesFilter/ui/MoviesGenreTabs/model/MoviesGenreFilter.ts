@@ -1,5 +1,5 @@
 import {makeAutoObservable} from "mobx";
-import {TabItem} from "../../../../../shared/ui/Tabs/Tabs.tsx";
+import {TabItem} from "../ui/MoviesGenreTabs.tsx";
 
 class MoviesGenreFilter {
     genres: Array<TabItem> = []

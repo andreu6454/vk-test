@@ -6,8 +6,11 @@
 
 1) npm install
 2) npm run dev
-
+ 
 ```
+
+[Запустить макет](https://andreu6454.github.io/vk-test/)
+
 
 ## Архитектура проекта
 
@@ -22,3 +25,4 @@
 - react
 - typescript
 - vite
+
