@@ -47,6 +47,18 @@ export const FavoritesPage = memo(() => {
         />
     ))
 
+
+    if (isLoading) {
+        return (
+            <>
+                <Header></Header>
+                <div className={cls.FavoritesPage}>
+                    LOADING...
+                </div>
+            </>
+        )
+    }
+
     if (error) {
         return (
             <>
@@ -58,12 +70,14 @@ export const FavoritesPage = memo(() => {
             </>
         )
     }
-    if (isLoading) {
+    if (!movies.length) {
         return (
             <>
                 <Header></Header>
                 <div className={cls.FavoritesPage}>
-                    LOADING...
+                    <div>Фильмы не найдены</div>
+                    <div>Зайдите на страницу с фильмом и добавьте в избранное</div>
+                    <div>Возможно закончились запросы :(</div>
                 </div>
             </>
         )
