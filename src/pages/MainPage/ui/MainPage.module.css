@@ -1,0 +1,44 @@
+.MainPage {
+    color: #DBDBDB;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.btnContainer {
+    margin-top: auto;
+    margin-bottom: 32px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    padding: 4px;
+    border-radius: 16px;
+    border: none;
+}
+
+.btn:hover {
+    scale: 90%;
+}
+
+.btn:active {
+    scale: 110%;
+}
+
+.Page {
+    font-size: 24px;
+    font-weight: bold;
+}

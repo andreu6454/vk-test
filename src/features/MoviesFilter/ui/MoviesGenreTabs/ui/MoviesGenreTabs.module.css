@@ -1,0 +1,28 @@
+.MoviesGenreTabs {
+    width: 100%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.ActiveTab {
+    padding: 8px 16px;
+    background-color: #5ed3f3;
+    border-radius: 20px;
+}
+
+.Tab {
+    padding: 8px 16px;
+    background-color: #151C1F;
+    border-radius: 20px;
+}

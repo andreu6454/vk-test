@@ -1,0 +1,29 @@
+.AddToFavorite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DBDBDB;
+    padding: 16px;
+}
+
+.title {
+    font-size: 21px;
+}
+
+.btn {
+    margin-top: 16px;
+    background-color: #5ed3f3;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    scale: 90%;
+}
+
+.btn:active {
+    scale: 110%;
+}

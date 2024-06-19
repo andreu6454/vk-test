@@ -1,0 +1,20 @@
+.MovieDescription {
+    width: 500px;
+    min-height: 300px;
+    background-color: #090f11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+.descriptionField {
+    background-color: #151C1F;
+    padding: 6px 12px;
+}
+
+.ratingContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+}

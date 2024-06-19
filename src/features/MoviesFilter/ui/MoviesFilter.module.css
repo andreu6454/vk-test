@@ -1,0 +1,32 @@
+.MoviesFilter {
+    width: 264px;
+    height: 450px;
+    padding: 16px;
+    background-color: #090f11;
+    position: sticky;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 16px;
+}
+
+.btn:hover {
+    scale: 90%;
+}
+
+.btn:active {
+    scale: 110%;
+}

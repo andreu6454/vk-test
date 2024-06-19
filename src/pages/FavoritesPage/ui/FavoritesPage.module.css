@@ -1,0 +1,20 @@
+.FavoritesPage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    color: #DBDBDB;
+}
+
+.title {
+    font-size: 32px;
+    color: #DBDBDB;
+}
+
+.moviesContainer {
+    width: 900px;
+    padding: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+.Header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    border-bottom: 1px solid #DBDBDB;
+    position: sticky;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #DBDBDB;
+}
+
+.Navbar {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.Link {
+    text-decoration: none;
+    color: #DBDBDB;
+}
+
+.Link:hover {
+    color: #5ed3f3;
+}

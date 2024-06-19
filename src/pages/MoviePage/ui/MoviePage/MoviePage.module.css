@@ -1,0 +1,14 @@
+.MoviePage {
+
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    color: #DBDBDB;
+}
+
+.img {
+    width: 300px;
+    min-height: 300px;
+    margin-right: 40px;
+}
+
