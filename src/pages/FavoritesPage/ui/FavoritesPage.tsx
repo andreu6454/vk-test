@@ -25,10 +25,12 @@ export const FavoritesPage = memo(() => {
 
     useEffect(() => {
         if (ids) {
+            setIsLoading(true)
             $api.get(`movie?${ids}`).then((resp) => {
                 setIsLoading(false)
                 setMovies(resp.data.docs)
             }).catch((resp) => {
+                setIsLoading(false)
                 setError(resp.message)
             })
         }
