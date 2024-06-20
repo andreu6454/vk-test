@@ -39,6 +39,7 @@ export const MoviePage = () => {
                     src={movie?.poster.url}
                 />
                 <MovieDescription
+                    name={movie?.name}
                     rating={movie?.rating}
                     genres={movie?.genres}
                     year={movie?.year}

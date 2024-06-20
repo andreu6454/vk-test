@@ -10,7 +10,7 @@ import {$api} from "../../../shared/api/api.ts";
 export const MainPage = memo(() => {
     const [movies, setMovies] = useState<Array<MovieType>>([])
 
-    const [page, setPage] = useState(0)
+    const [page, setPage] = useState(1)
     const [isLoading, setIsLoading] = useState(true)
     const [error, setError] = useState('')
 
@@ -26,6 +26,7 @@ export const MainPage = memo(() => {
     }, [page]);
 
     const onAcceptHandler = () => {
+        setIsLoading(true)
         const filters = getFilters()
         $api.get(`movie?page=${page}&limit=50&sortField=rating.kp&sortType=-1` + filters,).then((resp) => {
             setIsLoading(false)
